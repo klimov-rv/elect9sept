@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content='' />
+    <meta name="description" content='' />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <title>Site</title>
+    <!-- fixes -->
+    <!--[if IE]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+  <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" type="text/css" href="index_files/normalise.css">
+    <link rel="stylesheet" type="text/css"
+        href="index_files/font-awesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="index_files/fonts.css">
+    <link rel="stylesheet" type="text/css" href="index_files/spider.css">
+    <link rel="stylesheet" type="text/css" href="index_files/theme.css">
+    <link rel="stylesheet" type="text/css" href="index_files/fancybox.css">
+    <link rel="stylesheet" type="text/css" href="index_files/aos.css">
+    <link rel="stylesheet" type="text/css" href="index_files/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="index_files/responsive.css">
+    <link rel="stylesheet" type="text/css" href="index_files/mmenu-light.css">
+</head>
+
+<body class="template-is-index is-index-page dom-ready window-load">
+    <div id="page">
+        <div class="header-wrapper">
+            <header class="siteHeader container" data-aos="fade-down">
+                <nav class="siteHeader__nav row with-margins">
+                    <div class="left-side cell-6 cell-8-m">
+                        <span class="siteHeader__text">
+                            19 сентября <span class="hide-sm"> • Кандидаты от
+                                <i class="icon icon-lpr"></i>
+                                <a class="siteHeader__link"
+                                    href="https://lp-russia.org/"
+                                    target="_blank">
+                                    ЛПР</a>
+                                и <i class="icon icon-grob"></i>
+                                <a class="siteHeader__link"
+                                    href="https://civsoc.net/" target="_blank">
+                                    ГРОБ</a>
+                            </span>
+                        </span>
+                    </div>
+                    <div
+                        class="right-side show-flex flex-middle flex-end cell-6 cell-4-m">
+                        <a class="siteHeader__link hide-m"
+                            href="become-deputy.html">Стать
+                            кандидатом</a>
+                        <a class="siteHeader__link hide-m" href="press.html">Для
+                            прессы</a>
+                        <a data-fancybox data-src="#hidden-content-a" href="#"
+                            class="btn button-flat-blue">Поддержать</a>
+
+                    </div>
+
+                    <!-- Кнопка мобильное меню -->
+                    <a class="hamburger hamburger--sliderburger-icon hide show-m"
+                        href="#menu">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </a>
+                    <!-- /Кнопка мобильное меню -->
+                </nav>
+                <!-- Мобильное меню -->
+                <nav id="menu" data-site-title="Меню">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="candidate.html">Страница кандидата</a></li>
+                        <li><a href="press.html">Для прессы</a></li>
+                        <li><a href="become-deputy.html">Инструкция как стать кандидатом</a></li>
+                    </ul>
+                </nav>
+                <!-- /Мобильное меню -->
+            </header>
+
+            <div class="content">
+                <div class="main-wrapper">
+                    <section class="hero_map container">
+                        <div class="hero_map__holder row with-margins">
+                            <div class="cell-6 cell-10-lg cell-12-xs">
+                                <h1 class="hero_map__header"> <span>Голосуй за
+                                        кандидатов</span> от Гражданского
+                                    общества</h1>
+                                <p class="header_subtext">Этой осенью по всей
+                                    стране
+                                    пройдут выборы в
+                                    Государственную, региональные и местные
+                                    представительные органы. Либертарианская
+                                    партия
+                                    России совместно с Гражданским Обществом
+                                    готова
+                                    выставить сильных кандидатов по всей стране.
+                                </p>
+                            </div>
+                            <div class="city-name__block">
+                                <label for="selectcity">
+                                    <span>Город</span>
+                                    <select class="native-selectpicker"
+                                        id="selectcity" name="prop[city]">
+                                        <option value="" selected disabled>
+                                            Все города
+                                        </option>
+                                        <option value="1">
+                                            Новосибирск
+                                        </option>
+                                        <option value="2">
+                                            Пермь
+                                        </option>
+                                        <option value="3">
+                                            Калининград
+                                        </option>
+                                        <option value="4">
+                                            Саратов
+                                        </option>
+                                        <option value="5">
+                                            Санкт-Петербург
+                                        </option>
+                                        <option value="6">
+                                            Омск
+                                        </option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="candidates">
+                        <div class="container_narrow">
+                            <div class="grid">
+
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_2.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_1.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_1.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_1.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_1.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="candidates__card row">
+                                    <div
+                                        class="candidate__photo cell-3 cell-4-lg cell-12-sm">
+                                        <div class="candidate__photo_wrap">
+                                            <a href="candidate.html"
+                                                class="candidate__photo_relative">
+                                                <img class="candidate-img"
+                                                    src="index_files/photo_1.png"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hero_candidate__city hide show-sm" style="background-image: url('index_files/town-img-1.png')"> 
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="cell-9 cell-8-lg cell-12-sm col">
+                                        <a href="candidate.html"
+                                            class="candidate__info">
+                                            <div class="candidate__okrug">Пермь,
+                                                7
+                                                округ
+                                            </div>
+                                            <h2 class="candidate__name">Иван
+                                                Желудков
+                                            </h2>
+                                            <p>Этой осенью по всей стране
+                                                пройдут
+                                                выборы
+                                                в
+                                                Государственную, региональные и
+                                                местные
+                                                представительные органы.
+                                                Либертарианская
+                                                партия России совместно с
+                                                Гражданским
+                                                Обществом готова выставить
+                                                сильных
+                                                кандидатов по всей стране.</p>
+                                            <div
+                                                class="detail_btn hide show-sm">
+                                                Читать подробнее
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <footer class="siteFooter container">
+                    <nav class="siteFooter__nav row is-grid with-margins">
+                        <div class="left-side cell-4 cell-12-m col">
+                            <h4 class="col-title">
+                                Расскажи другим
+                            </h4>
+                            <span>Всё что нужно для победы злодеев − чтобы
+                                добрые
+                                люди ничего не делали</span>
+                            <div class="siteFooter__soc">
+                                <a href=""
+                                    class="siteFooter__soc_link soc-icon">
+                                    <div class="icon is-fb">
+                                    </div>
+                                </a>
+                                <a href=""
+                                    class="siteFooter__soc_link soc-icon">
+                                    <div class="icon is-vk">
+                                    </div>
+                                </a>
+                                <a href=""
+                                    class="siteFooter__soc_link soc-icon">
+                                    <div class="icon is-tg">
+                                    </div>
+                                </a>
+                                <a href=""
+                                    class="siteFooter__soc_link soc-icon">
+                                    <div class="icon is-tw">
+                                    </div>
+                                </a>
+                                <a href=""
+                                    class="siteFooter__soc_link soc-icon">
+                                    <div class="icon is-ok">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="right-side cell-6 cell-12-m flex-first-m">
+                            <h4 class="col-title">
+                                Поддержи наших кандидатов
+                            </h4>
+                            <span class="hide-m">На хостинг, разработку и
+                                редакцию мы тратим
+                                свои
+                                деньги. Помоги нам окупить затраты и начать
+                                платить
+                                редакторам. Подпишись на наш патреон:</span>
+                            <a target="_blank"
+                                href="http://patreon.com/choiserussia"
+                                class="btn button-link is-pat hide-m">
+                                <span>patreon.com/choiserussia</span> </a>
+
+
+                            <span class="hide show-m">На хостинг, разработку и
+                                редакцию мы тратим свои деньги. Помоги нам
+                                окупить затраты и начать платить
+                                редакторам.</span>
+                            <a target="_blank" href="#"
+                                class="btn button-link is-sber hide show-m">
+                                <strong>Сбербанк</strong> <br> 4274 3200 2767
+                                1695 </a>
+                            <a target="_blank" href="#"
+                                class="btn button-link is-tink hide show-m">
+                                <strong>Тинькофф</strong> <br> 5536 9137 8347
+                                3958 </a>
+                            <a target="_blank" href="#"
+                                class="btn button-link is-bitc hide show-m">
+                                <strong>Биткоин</strong> <br>
+                                1GLVBZAt3ZkbjGWMzSaB5TZF779MS78YAA</a>
+                        </div>
+                    </nav>
+                </footer>
+            </div>
+            <div style="display: none;" id="hidden-content-a">
+                <h2>Hello!</h2>
+                <p>You are awesome!</p>
+            </div>
+
+        </div>
+
+        <script src="index_files/jquery.js"></script>
+        <script src="index_files/jquery.fancybox.pack.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".fancybox").fancybox();
+            });
+        </script>
+        <script src="index_files/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-in-out-sine',
+                once: true
+            });
+        </script>
+        <script src="index_files/mmenu-light.js"></script>
+        <script src="index_files/index.js"></script>
+</body>
+
+</html>

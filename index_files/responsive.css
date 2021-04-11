@@ -1,0 +1,155 @@
+@media screen and (max-width: 1675px) {}
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1280px) {
+    .hero_map__holder {
+        background-position-y: 190px;
+    }
+    .candidate__info {
+        padding: 40px 50px 45px 35px;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 990px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2, h3, h4, h5, h6 {
+        font-size: 22px;
+    }
+    p.header_subtext {
+        font-size: 20px;
+    }
+    .hero_map {
+        background: url("map-russia.png") no-repeat 11% 239px / cover transparent;
+    }
+    .hero_map__holder {
+        background: none;
+    }
+    .candidates .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .candidate_bio picture {
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .candidates .grid {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .candidates .candidate__info {
+        background-color: #FFF3EF;
+    }
+    .candidates .candidate__photo {
+        margin-bottom: -30px;
+    }
+    .candidates .candidate__photo_relative {
+        z-index: 3;
+        position: relative;
+        border: 1px solid #312525;
+    }
+    .candidates .candidate__photo_wrap {
+        width: 145px;
+        height: 180px;
+        margin: 16px 0 0 16px;
+        background: #d5c0b8;
+    }
+    .candidates .candidate-img {
+        height: 93%;
+    }
+    .candidates .candidate__info {
+        padding: 58px 18px 78px 18px;
+        position: relative;
+        margin-bottom: 45px;
+    }
+    .candidates .candidate__info .detail_btn {
+        position: absolute;
+        height: 55px;
+        line-height: 55px;
+        border-top: 1px solid black;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        font-family: var(--PT_Sans);
+        font-weight: 300;
+        font-size: 16px;
+        color: #312525;
+    }
+    .candidates .candidates__card {
+        border: 0px solid;
+        background: transparent;
+    }
+    .candidates .candidates__card:hover {
+        background: transparent;
+    }
+    .candidates .candidate__photo {
+        position: relative;
+    }
+    .candidates .candidates__card .hero_candidate__city {
+        position: absolute;
+        height: 197px;
+        background: url("town-img-1.png") no-repeat center center / contain transparent;
+        z-index: 1;
+        width: 62%;
+        top: 0;
+        right: 0;
+        min-height: auto;
+    }
+    .hero_candidate__city {
+        min-height: 331px;
+        background: url("town-img-1.png") no-repeat bottom right / contain transparent;
+        background-image: url("town-img-1.png");
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 67%;
+    }
+    .hero_candidate__city-name {
+        font-size: 16px; 
+    }
+    .descrcontent {
+        font-size: 24px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .candidate_bio picture img {
+        max-width: 100vw;
+        max-height: 100%;
+        left: -16px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 480px) {
+    .row.with-margins {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2, h3, h4, h5, h6 {
+        font-size: 20px;
+    }
+    .siteHeader__nav .btn.button-flat-blue {
+        width: 151px;
+        padding-left: 55px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .row.is-grid>*, .row-reverse.is-grid>*, .col.is-grid>*, .col-reverse.is-grid>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {}

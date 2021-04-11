@@ -1,0 +1,556 @@
+:root {
+  --Montserrat: 'Montserrat', Gadget, sans-serif;
+  --Cera: 'Cera Pro', Gadget, sans-serif;
+  --PT_Sans: 'PT Sans', Gadget, sans-serif;
+  --Manrope: 'Manrope', Gadget, sans-serif;
+  --border-radius: 0px;
+  --color_bg: transparent;
+  --color_text: #312525;
+  --color_bg_content: #FFF3EF;
+  --color_bg_all: #E3CCC4;
+}
+
+html {
+  font-family: var(--Montserrat);
+  background: var(--color_bg_all);
+  color: var(--color_text);
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, optgroup, select, textarea {
+  background-color: white;
+  color: #1e1e1e;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--Cera);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.1em;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2, h3, h4, h5 {
+  font-size: 24px;
+}
+
+p {
+  font-family: var(--PT_Sans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4em;
+  /* Black reddet */
+  color: #312525;
+}
+
+p.header_subtext {
+  font-size: 21px;
+  line-height: 1.5em;
+}
+
+select.native-selectpicker {
+  border: 0px solid;
+  appearance: none;
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='8' height='6' viewBox='0 0 8 6'%3E%3Cdefs%3E%3Cpath id='5ru0a' d='M300.17 141.59l2.83 2.82 2.83-2.82 1.41 1.4-2.83 2.84-1.41 1.41-1.41-1.41-2.83-2.83z'/%3E%3C/defs%3E%3Cg%3E%3Cg transform='translate(-299 -141)'%3E%3Cuse fill='%23222' xlink:href='%235ru0a'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 9px) 50%;
+  background-size: unset;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 5px 25px 5px 5px;
+  touch-action: manipulation;
+  text-transform: none;
+  margin: 0;
+}
+
+.city-name {
+  font-family: var(--Manrope);
+}
+
+.container, .container_narrow {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+}
+
+.container_narrow .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  outline: none;
+  font-family: Montserrat;
+  font-style: normal;
+  margin: 0px 10px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.button-flat-blue {
+  background-color: #3F52FF;
+  width: 195px;
+  max-width: 230px;
+  height: 34px;
+  line-height: 49px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.siteHeader__nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 24px 0;
+  border-bottom: 1px solid #312525;
+}
+
+.siteHeader__link, .siteHeader__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #312525;
+}
+
+.siteHeader__nav a.siteHeader__link:hover {
+  color: #3F52FF;
+}
+
+.siteHeader__nav .left-side .siteHeader__link {
+  color: #765C5C;
+  border-bottom: 1px solid #765C5C;
+}
+
+.siteHeader__nav .right-side .siteHeader__link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #312525;
+  margin-right: 24px;
+}
+
+.siteHeader__nav .btn.button-flat-blue {
+  background: url("Digital-Patreon-Logo_White.png") no-repeat 13px center #3F52FF;
+  width: 151px;
+  padding-left: 55px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.hero_map__holder {
+  background: url("map-russia.png") no-repeat top left / 100% transparent;
+  min-height: 897px;
+  position: relative;
+}
+
+.hero_map__header span {
+  display: inline-block;
+  width: 100%;
+}
+
+.city-name__block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 30px 0;
+}
+
+.city-name__block label {
+  display: flex;
+  flex-direction: column;
+}
+
+.city-name__block label span {
+  padding: 5px 9px;
+  font-family: var(--PT_Sans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.city-name__block .native-selectpicker {
+  font-family: var(--PT_Sans);
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.candidates {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.candidates .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1px;
+  margin-right: 2px;
+}
+
+.candidates__card {
+  background-color: #FFF3EF;
+  border: 1px solid #312525;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  min-height: 310px;
+}
+
+.candidates__card:hover {
+  background-color: #F8E1DA;
+}
+
+.candidate__photo_wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.candidate__photo_relative {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.candidate__info {
+  padding: 40px 70px 45px 15px;
+}
+
+.candidate-img {
+  width: auto;
+  height: calc(100% - 35px);
+  max-width: none;
+  z-index: 3;
+}
+
+.candidates p {
+  line-height: 1.5em;
+}
+
+.candidate__okrug {
+  font-family: var(--Cera);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+.candidate__okrug, .candidate__name {
+  color: #312525;
+}
+
+.candidate__name {
+  margin-bottom: 8px;
+}
+
+.icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url("blank.svg") no-repeat center center / contain transparent;
+}
+
+.siteHeader__nav .icon {
+  width: 27px;
+  height: 27px;
+  margin-bottom: -9px;
+  margin-left: 3px;
+}
+
+.siteHeader__nav .icon.icon-lpr {
+  background-image: url("icon-lpr-logo.svg");
+}
+
+.siteHeader__nav .icon.icon-grob {
+  width: 47px;
+  background-image: url("icon-grob-logo.svg");
+}
+
+.siteFooter {
+  font-family: var(--PT_Sans);
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.siteFooter__nav {
+  padding: 56px 0;
+}
+
+.siteFooter__soc .icon {
+  width: 35px;
+  height: 35px;
+}
+
+.siteFooter__soc {
+  margin-top: 30px;
+}
+
+.col-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.1em;
+  margin: 25px 0px;
+}
+
+.button-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  justify-content: flex-start;
+  width: 350px;
+  height: 105px;
+  font-family: var(--Manrope);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.button-link.is-pat {
+  background: url("icon-patreon-donate.svg") no-repeat left center transparent;
+  padding-left: 55px;
+  color: #3F52FF;
+  height: 45px;
+}
+
+.button-link.is-pat span {
+  border-bottom: 1px solid rgba(61, 81, 255, 0.2);
+}
+
+.button-link.is-pat:hover span {
+  border-color: rgba(61, 81, 255, 1);
+}
+
+.button-link.is-sber {
+  padding-left: 100px;
+  background: url("icon-sber.svg") no-repeat left 15px transparent;
+  padding: 55px 0 0;
+  color: #1D1D1D;
+}
+
+.button-link.is-tink {
+  padding-left: 100px;
+  background: url("icon-tink.svg") no-repeat left 15px transparent;
+  padding: 55px 0 0;
+  color: #1D1D1D;
+}
+
+.button-link.is-bitc {
+  padding-left: 100px;
+  background: url("icon-bitc.svg") no-repeat left 15px transparent;
+  padding: 55px 0 0;
+  color: #1D1D1D;
+}
+
+.icon.icon-lpr {
+  background-image: url("icon-lpr-logo.svg");
+}
+
+.icon.is-fb {
+  background-image: url("icon-fb.svg");
+}
+
+.icon.is-vk {
+  background-image: url("icon-vk.svg");
+}
+
+.icon.is-tg {
+  background-image: url("icon-tg.svg");
+}
+
+.icon.is-tw {
+  background-image: url("icon-twitter.svg");
+}
+
+.icon.is-ok {
+  background-image: url("icon-ok.svg");
+}
+
+.hero_candidate__city {
+  position: absolute;
+  min-height: 370px;
+  background: url("town-img-1.png") no-repeat center right / contain transparent;
+  background-image: url("town-img-1.png");
+  z-index: 1;
+  width: 51%;
+  top: 0;
+  right: 0;
+}
+
+.hero_candidate__city-name {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  padding: 8px 12px;
+  background: #312525;
+  color: #ada8a8;
+  font-family: var(--Cera);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1em;
+  margin: 0px;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+.city-name-white {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.hero_candidate__card {
+  position: relative;
+  z-index: 1;
+}
+
+.hero_candidate__photo {
+  position: relative; 
+}
+
+.hero_candidate__text, .hero_candidate__photo {
+  padding-top: 40px;
+}
+
+.hero_candidate__photo .candidate__photo_wrap {
+  border: 1px solid #312525;
+  background-color: #d5c0b8;
+  width: 225px;
+}
+
+.hero_candidate__text {
+  font-size: 16px;
+  line-height: 1.4em;
+  font-family: var(--PT_Sans);
+}
+
+.hero_candidate__subtext {
+  font-family: var(--PT_Sans);
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.descrcontent {
+  font-family: var(--PT_Sans);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 1.6em;
+  padding: 45px 0;
+}
+
+.candidate_bio h2, .candidate_bio h3, .candidate_bio h4, .candidate_bio h5, .candidate_bio h6 {
+  font-family: var(--Cera);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.2em;
+  margin: 40px 0 25px;
+}
+
+.candidate_bio picture {
+  border-radius: 4px;
+  text-align: center;
+}
+
+.candidate_bio picture+p {
+  padding-top: 30px;
+}
+
+.candidate_bio p {
+  margin-bottom: 20px;
+}
+
+.col-content {
+  margin-bottom: 70px;
+}
+
+.standart__content .candidates__card {
+  position: relative;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 0px solid;
+  margin-bottom: 40px;
+  min-height: 210px;
+}
+
+.standart__content .candidates__card .candidate__photo_wrap {
+  margin-top: 145px;
+  background-color: #FFF3EF;
+  padding: 60px 20px 20px;
+}
+
+.standart__content .candidate__photo_relative {
+  border: 1px solid #312525;
+  background-color: #d5c0b8;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 145px;
+  height: 185px;
+}
+
+.standart__content .candidate__photo_relative .candidate-img {
+  height: calc(100% - 15px);
+}
+
+.candidates.row.with-margins {
+  margin: 40px 36px;
+}
+
+.standart__paragraph {
+  font-family: var(--PT_Sans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 160%;
+}
+
+.candidate__type {
+  font-family: var(--Cera);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.candidate__name {
+  margin-bottom: 10px;
+}
+
+.candidate__contact {
+  font-family: var(--PT_Sans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+}
