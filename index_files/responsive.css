@@ -112,7 +112,7 @@
         width: 67%;
     }
     .hero_candidate__city-name {
-        font-size: 16px; 
+        font-size: 16px;
     }
     .descrcontent {
         font-size: 24px;
@@ -130,6 +130,23 @@
 @media screen and (max-width: 640px) {}
 
 @media screen and (max-width: 480px) {
+    .candidates.row.with-margins {
+        margin: 10px 16px;
+    }
+    .standart__content .candidates .candidate__photo_wrap {
+        width: 100%;
+        height: auto;
+        margin: 15px 0 0; 
+    }
+    .standart__content .candidate__photo_relative {
+        left: 0;
+    }
+    .standart__content .candidates__card .candidate__photo_wrap {
+        padding: 20px;
+    }
+    .standart__content .candidate__type {
+        margin-top: 40px;
+    }
     .row.with-margins {
         margin-left: 16px;
         margin-right: 16px;
