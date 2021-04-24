@@ -1451,7 +1451,14 @@ output {
     width: 100%;
   }
 }
-
+@media screen and (max-width: 1675px) {
+  .cell-10-xl {    
+      max-width: 83.33333%;
+      -webkit-flex-basis: 83.33333%;
+      -ms-flex-preferred-size: 83.33333%;
+      flex-basis: 83.33333%;
+  } 
+}
 @media screen and (max-width: 1024px) {
   .push-0-md {
     margin-left: 0%;

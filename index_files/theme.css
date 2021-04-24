@@ -86,6 +86,7 @@ select.native-selectpicker {
   margin-left: auto;
   margin-right: auto;
   max-width: 1920px;
+  overflow: hidden;
 }
 
 .container_narrow .row {
@@ -161,10 +162,15 @@ select.native-selectpicker {
   margin: 0;
 }
 
+.siteHeader__nav .btn.button-flat-blue:hover {
+  background-color: #2334D4;
+}
+
 .hero_map__holder {
   background: url("map-russia.png") no-repeat top left / 100% transparent;
-  min-height: 897px;
+  min-height: 1025px;
   position: relative;
+  margin-bottom: -120px;
 }
 
 .hero_map__header span {
@@ -174,7 +180,7 @@ select.native-selectpicker {
 
 .city-name__block {
   position: absolute;
-  bottom: 0;
+  bottom: 145px;
   left: 0;
   margin: 30px 0;
 }
@@ -203,6 +209,8 @@ select.native-selectpicker {
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
+  position: relative;
+  z-index: 5;
 }
 
 .candidates .grid {
@@ -306,7 +314,7 @@ select.native-selectpicker {
   height: 35px;
 }
 
-.siteFooter__soc {
+.siteFooter__soc, .button-link.is-pat {
   margin-top: 30px;
 }
 
@@ -315,6 +323,7 @@ select.native-selectpicker {
   font-size: 32px;
   line-height: 1.1em;
   margin: 25px 0px;
+  width: 100%;
 }
 
 .button-link {
@@ -431,7 +440,7 @@ select.native-selectpicker {
 }
 
 .hero_candidate__photo {
-  position: relative; 
+  position: relative;
 }
 
 .hero_candidate__text, .hero_candidate__photo {
@@ -489,6 +498,7 @@ select.native-selectpicker {
 
 .col-content {
   margin-bottom: 70px;
+  width: 100%;
 }
 
 .standart__content .candidates__card {

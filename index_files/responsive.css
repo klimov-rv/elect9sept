@@ -1,11 +1,12 @@
-@media screen and (max-width: 1675px) {}
+@media screen and (max-width: 1675px) {
+    .hero_map__holder {
+        background-position-y: 190px;
+    }
+}
 
 @media screen and (max-width: 1500px) {}
 
 @media screen and (max-width: 1280px) {
-    .hero_map__holder {
-        background-position-y: 190px;
-    }
     .candidate__info {
         padding: 40px 50px 45px 35px;
     }
@@ -33,7 +34,14 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .candidate_bio picture {
+        display: block;
         border-radius: 0px;
+        margin: -15px;
+        padding: 15px 0;
+    }
+    .candidate_bio h2, .candidate_bio h3, .candidate_bio h4, .candidate_bio h5, .candidate_bio h6 {
+        font-size: 28px;
+        line-height: 120%;
     }
 }
 
@@ -120,32 +128,16 @@
         text-align: center;
     }
     .candidate_bio picture img {
-        max-width: 100vw;
-        max-height: 100%;
-        left: -16px;
-        position: relative;
+        max-width: 100%;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 640px) {}
 
 @media screen and (max-width: 480px) {
-    .candidates.row.with-margins {
-        margin: 10px 16px;
-    }
-    .standart__content .candidates .candidate__photo_wrap {
-        width: 100%;
-        height: auto;
-        margin: 15px 0 0; 
-    }
-    .standart__content .candidate__photo_relative {
-        left: 0;
-    }
-    .standart__content .candidates__card .candidate__photo_wrap {
-        padding: 20px;
-    }
-    .standart__content .candidate__type {
-        margin-top: 40px;
+    .hero_map {
+        background-position-y: 131px;
     }
     .row.with-margins {
         margin-left: 16px;
@@ -166,6 +158,31 @@
     .row.is-grid>*, .row-reverse.is-grid>*, .col.is-grid>*, .col-reverse.is-grid>* {
         padding-left: 0;
         padding-right: 0;
+    }
+    .hero_candidate__photo {
+        height: 230px;
+        width: 145px;
+    }
+    .hero_candidate__photo .candidate__photo_wrap {
+        width: 100%;
+    }
+    .candidate-img {
+        height: calc(100% - 5px);
+    }
+    .hero_candidate__city {
+        min-height: 229px;
+        background-size: cover;
+        background-position: left bottom;
+        margin-right: -15px;
+    } 
+    .siteFooter__nav {
+        padding: 0;
+    }
+    .col-content {
+        margin-bottom: 50px;
+    }
+    .col-content:last-child { 
+        margin-bottom: 155px;
     }
 }
 
