@@ -3178,6 +3178,11 @@ output {
   margin-right: 56px;
 }
 
+.row.is-grid.with-margins {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
 .cell-1 {
   max-width: 8.33333%;
   -webkit-flex-basis: 8.33333%;

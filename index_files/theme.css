@@ -136,6 +136,11 @@ select.native-selectpicker {
   color: #312525;
 }
 
+.siteHeader__link_clean {
+  border: 0px solid;
+  color: #312525;
+}
+
 .siteHeader__nav a.siteHeader__link:hover {
   color: #3F52FF;
 }
@@ -211,6 +216,7 @@ select.native-selectpicker {
   font-size: 24px;
   position: relative;
   z-index: 5;
+  border-bottom: 1px solid #312525;
 }
 
 .candidates .grid {
@@ -273,7 +279,11 @@ select.native-selectpicker {
 }
 
 .candidate__name {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.candidate__name a {
+  color: #312525;
 }
 
 .icon {
@@ -534,6 +544,10 @@ select.native-selectpicker {
   margin: 40px 36px;
 }
 
+.candidates_press {
+  margin: 40px 0;
+}
+
 .standart__paragraph {
   font-family: var(--PT_Sans);
   font-style: normal;
@@ -551,10 +565,6 @@ select.native-selectpicker {
   margin-bottom: 20px;
 }
 
-.candidate__name {
-  margin-bottom: 10px;
-}
-
 .candidate__contact {
   font-family: var(--PT_Sans);
   font-style: normal;
@@ -563,4 +573,19 @@ select.native-selectpicker {
   line-height: 150%;
   display: flex;
   flex-direction: column;
+}
+
+.to-all-button {
+  font-family: PT Sans;
+  line-height: 150%;
+  text-align: center;
+  color: #312525;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 35px;
+}
+.to-all-button:hover {
+  color: #3F52FF;
 }

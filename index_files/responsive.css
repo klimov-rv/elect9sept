@@ -133,7 +133,11 @@
     }
 }
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
+    .to-all-button {
+        display: block;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .hero_map {
